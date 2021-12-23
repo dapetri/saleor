@@ -7,13 +7,18 @@
     </mj-text>
   </mj-column>
 </mj-section>
-<mj-section background-color="#F2F2F2">
+<mj-section background-color="linear-gradient(90deg, rgba(242,93,98,1) 0%, rgba(237,28,36,1) 50%, rgba(193,0,22,1) 100%);">
   <mj-column>
-    <mj-text align="center">
+    <mj-text align="center" color="#FFF">
       {% blocktrans trimmed context "Base email footer" %}
         Sincerely, {{ site_name }}
       {% endblocktrans %}
+      <br />
+      <br />
+      Find support here: <a class="link-nostyle" href="mailto:info@fernvonfremd.de">info@fernvonfremd.de</a>
     </mj-text>
+    <mj-text>
+    </mj-text>    
   </mj-column>
 </mj-section>
 <mj-section css-class="no-display">

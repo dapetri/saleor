@@ -1,4 +1,6 @@
 <mj-style inline="inline">
+
+.link-nostyle { color: #fff; text-decoration: none }
   .no-display {
     display: none;
   }
@@ -18,6 +20,7 @@
   .table-item-row {
     border-bottom: 1px solid #D3D1D0;
   }
+  
 </mj-style>
 <mj-style>
 
